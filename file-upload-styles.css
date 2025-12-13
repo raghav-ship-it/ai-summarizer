@@ -1,0 +1,79 @@
+/* File Upload Styles */
+.file-upload-btn {
+    flex-shrink: 0;
+}
+
+.file-preview {
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    background-color: var(--input-bg);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+}
+
+.file-preview-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.file-preview-icon {
+    color: var(--primary-color);
+    flex-shrink: 0;
+}
+
+.file-preview-name {
+    font-weight: 500;
+    color: var(--text-primary);
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.file-preview-size {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+.file-preview-remove {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-secondary);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.file-preview-remove:hover {
+    background-color: var(--input-bg);
+    color: #ef4444;
+}
+
+.file-attachment-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    background-color: var(--input-bg);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    margin-top: 8px;
+    color: var(--text-secondary);
+}
+
+.file-attachment-badge svg {
+    width: 14px;
+    height: 14px;
+}
