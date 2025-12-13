@@ -71,4 +71,3 @@ MIT License - feel free to use and modify as needed.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-"# ai-summarizer" 
