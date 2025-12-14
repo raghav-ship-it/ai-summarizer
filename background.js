@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "AIzaSyC_H7FvRFvsxE1lhV-PO3fbgzFDNvZ2CME";
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === "SUMMARIZE") {
