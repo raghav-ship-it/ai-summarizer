@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "AIzaSyAyS7xDN4gzycg7IP5A-ipCPJxWpuB62Ic";
+const GEMINI_API_KEY = "*************************";
 
 // State
 let sessions = {};
